@@ -11,5 +11,5 @@ docker image build -t flask .
 ```
 ### Run container
 ```
-docker container run -p 5000:5000 flask
+docker container run -p 5000:5000 --network host flask
 ```
